@@ -1,10 +1,8 @@
-# PROGRAM TO DISPLAY FIBONACCI SERIES FROM 0-50
+# PROGRAM ON MIRROR DIMENSION
 
-
-# first two terms
-x, y = 0, 1
-# generate fibonacci sequence
-while y < 50:
-    print(y)
-    x, y = y, x + y
-
+word = input("Input a word to reverse: ")
+# initialising string
+for char in range(len(word) - 1, -1, -1):
+    # reversing the string
+  print(word[char], end="")
+print("\n") 
